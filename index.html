@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Praktikum 1 - PWL - IF4024</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container pt-4">
+        <p class="fs-6 text-center">Pemesanan Produk</p>
+        <hr />
+        <div id="summary"></div>
+
+        <div class="col d-flex justify-content-center">
+            <div class="card p-3">
+                <p class="fs-4 fw-bold">Data</p>
+                <div class="form-group">
+                    <label for="input-name">Name</label>
+                    <input type="text" name="name" id="input-name" class="form-control" placeholder="Your Name">
+                </div>
+                <p class="my-2">Pilih Produk</p>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p>Produk</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>Jumlah</p>
+                    </div>
+                </div>
+                <div id="select-product">
+                </div>
+                <button type="button" id="add-product" class="my-3 btn btn-warning text-white">Add Product</button>
+                <button id="orderBtn" class="btn btn-primary">Click Me</button>
+            </card>
+        </div>
+    </div>
+    
+    
+    <!-- <div class="container pt-4">
+
+        <div class="row" style="width: 540px; margin: 0 auto;">
+            <div class="col">
+                <form>
+                    <p class="fs-4 fw-bold">Data</p>
+                    <div class="form-group pb-3">
+                        <label for="nama">Nama</label> 
+                        <div class="col-9">
+                            <input id="nama" name="nama" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <p>Pilih Produk</p>
+                    <div class="row">
+                        <div class="col">Produk</div>
+                        <div class="col">Jumlah</div>
+                        <div class="col"></div>
+                    </div>
+                    <div id="select-product">
+                        <div class="row mb-2">
+                            <div class="col">
+                                    <select class="form-select">
+                                        <option value="1">Tesla Model S</option>
+                                        <option value="2">Tesla Model X</option>
+                                        <option value="3">Falcon 9 SpaceX</option>
+                                      </select>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" name="jumlah-1" id="jumlah-1">
+                            </div>
+                            <div class="col">
+                                <button type="button" class="btn-close btn-close-red form-control" 
+                                    aria-label="Close"></button>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col">
+                                    <select class="form-select">
+                                        <option value="1">Tesla Model S</option>
+                                        <option value="2">Tesla Model X</option>
+                                        <option value="3">Falcon 9 SpaceX</option>
+                                      </select>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" name="jumlah-1" id="jumlah-1">
+                            </div>
+                            <div class="col">
+                                <button type="button" class="btn-close btn-close-red form-control" 
+                                    aria-label="Close"></button>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-9">
+                                <div class="col-9">
+                                    <button type="button" id="add-products" class="col-sm-6 btn btn-warning text-center">Tambah Produk</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                </form>
+            </div>
+        </div>
+    </div> -->
+</body>
+</html>
